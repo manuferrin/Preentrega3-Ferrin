@@ -1,0 +1,24 @@
+$color-principal: azure;
+$color-texto-h3: rgb(11, 78, 129);
+$color-texto-h4: rgb(9, 137, 235);
+$color-marca: rgb(71, 162, 179); 
+$color-slogan: rgb(83, 6, 190); 
+
+
+@media only screen and (max-width:480px){
+    .slogan{
+        padding-left: 0px;
+    }
+
+    .fotoplaya{
+        padding-right: 0%;
+    }
+
+    .fotonoche{
+        padding-right: 0%;
+    }
+}
+
+
+
+

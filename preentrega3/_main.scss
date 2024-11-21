@@ -1,0 +1,120 @@
+body{
+    background-color: azure;
+}
+.foto{
+    background-color: $color-principal;
+    height: 70%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .slogan {
+    color: $color-slogan;
+    padding-left: 200px;
+    font-size: xx-large;
+    
+    animation-name: cambioslogan;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    height: 50px; 
+    width: 100%;
+    
+  }
+
+   @keyframes cambioslogan 
+   {
+    0%, 100%  
+    {
+        background-color: azure;
+        height: 50px;
+        width: 500px;
+    }
+    50%
+    {
+        background-color: skyblue;
+        color: rgb(196, 90, 154);
+        height: 50px;
+        width: 500px;
+        padding-left: 30px;
+    }
+   }
+
+
+  .marca{
+    background-color: $color-principal;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: none;
+    color: $color-marca;
+    margin-top: 40px;
+    transform: scale(1);
+    transition: all 0.15s ease-in;
+  }
+
+  .marca:hover 
+  {
+    background-color: pink;
+    transform: scale(1.20);
+     
+  }
+  
+  .principal{
+    background-color: $color-principal;
+    height: 40%;
+  }
+  
+  .nosotros{
+    background-color: $color-principal;
+    margin-top: 5%;
+    height: 45%;
+    width: 100%;
+  }
+
+  .fotodos{
+    background-color: $color-principal;
+    height: 60%;
+  }
+
+  .izq{
+    background-color: $color-principal;
+  }
+  
+  .der{
+    background-color: $color-principal;
+  }
+  
+  .venta{
+    background-color: $color-principal;
+    padding-top: 50px;
+  }
+  
+  .mapa{
+    background-color: $color-principal;
+    
+   
+  }
+  
+  .fotoplaya{
+    background-color: $color-principal;
+  }
+  
+  .fotonoche{
+    background-color: $color-principal;
+    
+  }
+
+  h3{
+    text-align: center;
+    color: $color-texto-h3;
+    padding-top: 30px;
+  
+  }
+  
+  h4{
+    text-align: center;
+    color: $color-texto-h4;
+     
+  }
+  
